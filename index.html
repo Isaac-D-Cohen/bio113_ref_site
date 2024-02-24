@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BIO 113 Reference Formatter</title>
+
+        <link rel="stylesheet" href="index.css"/>
+        <script src="citations.js"></script>
+    </head>
+
+    <body>
+
+        <h1 class="titles">BIO 113 Reference Formatter</h1>
+
+        <div class=buttons>
+            <button id=add onclick="add_author()">Add Author</button>
+            <button id=remove onclick="remove_author()">Remove Author</button>
+        </div>
+
+        <div class="form">
+            <form id="author_form">
+                <p>Author 1</p>
+                <label for="author1_first">First name:</label>
+                <input type="text" id="author1_first">  <pre> </pre>
+
+                <label for="author1_middle">Middle name:</label>
+                <input type="text" id="author1_middle"> <pre> </pre>
+
+                <label for="author1_last">Last name:</label>
+                <input type="text" id="author1_last"> <pre> </pre>
+            </form>
+        </div>
+
+        <br><br>
+
+        <div class="form">
+            <form id="other_stuff">
+                <label for="year">Year:</label>
+                <input type="text" id="year"> <pre> </pre>
+                <label for="article_title">Article title:</label>
+                <input type="text" id="article_title"> <br><br>
+                <label for="journal_name">Journal name:</label>
+                <input type="text" id="journal_name"> <pre> </pre>
+                <label for="journal_vol">Volume:</label>
+                <input type="text" id="journal_vol"> <br><br>
+                <label for="issue_num">Issue #:</label>
+                <input type="text" id="issue_num"> <pre> </pre>
+                <label for="pages">Pages:</label>
+                <input type="text" id="pages">
+            </form>
+        </div>
+
+        <br><br>
+        <div class=buttons>
+            <button id=compute onclick="produce_citation()">Produce Citation</button>
+        </div>
+
+        <br><br>
+
+        <div class="results">
+            <p id="in_text"></p>
+            <p id="full"></p>
+        </div>
+
+        <br><br>
+
+        <div class="text">
+            <h3 class="titles">What is this?</h3>
+            <p>In BIO 113 at our school, the discussion section requires submission of various written assignments over the course of the semester. Among other things, these assignments
+            require students to format citations using a very specific referencing system made up exclusively for the BIO 113 course. The reason for this is obvious. If their goal were
+            simply to teach material it would suffice to use APA, MLA, Chicago, or any of the other myriad, arbitrary forms of torture invented to drive students nuts over the years.
+            But like all things in college, the purpose here is precisely to make things difficult so that students who rise to the challenge can signal their capabilities and leave
+            their friends in the dust. I have written about this <a href="https://www.bupipedream.com/opinions/guest-column/the-case-against-universities/140926/">at length elsewhere</a> and
+            won't belabor the point here. Suffice it to say, the problem from their perspective, with these other referencing systems is that software
+            <a href="https://www.citationmachine.net/">is widely available</a> to automate them. Thus, they make up their own referencing system in the hopes of forcing students to go through the painful work of
+            following it by hand. Because I despise these people and their rotten goal, and in the hopes of assisting the public in defending themselves against it, I have written this little website
+            to at least partially automate the task of formatting according to their newly made-up referencing system. I hope you enjoy using it.<br><br>--Isaac Cohen</p>
+        </div>
+    </body>
+</html>

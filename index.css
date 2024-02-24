@@ -1,0 +1,50 @@
+.titles {
+    text-align: center;
+}
+
+.buttons {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add {
+    color: white;
+    font-weight: bold;
+    background: blue;
+}
+
+#remove {
+    color: white;
+    font-weight: bold;
+    background: red;
+}
+
+#compute {
+    color: white;
+    font-weight: bold;
+    background: green;
+}
+
+.form {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results {
+    text-align: center;
+}
+
+pre {
+    display: inline;
+}
+
+.text {
+    width: fit-content;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
