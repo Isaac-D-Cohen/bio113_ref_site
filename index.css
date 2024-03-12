@@ -48,3 +48,8 @@ pre {
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.critical_titles {
+    color: red;
+    text-align: center;
+}
